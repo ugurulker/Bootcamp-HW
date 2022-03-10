@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+.form-header {
+  margin: auto;
+  margin-top: 200px;
+}
+
+.todo-list-header {
+  margin-left: 640px;
+  position: fixed;
+  margin-top: -50px;
+}
+
+.list-group {
+  margin: auto;
+}
+
+.form-select {
+  max-width: 250px;
+}
+
+.not-found {
+  text-align: center;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: white;
+}
+
+.buttonedit {
+  margin-left: 1050px;
+  margin-top: 5px;
+  background: #141e30;
+  background: -webkit-linear-gradient(to right, #243b55, #141e30);
+  background: linear-gradient(to right, #243b55, #141e30);
+}
+
+.select {
+  border-radius: 3px;
+  margin-left: 5px;
+  height: 35px;
+}
+
+.todo-form {
+  margin-top: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo {
+  margin-right: 760px;
+  text-align: right;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.background,
+html {
+  background: #0f2027;
+  background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  color: white;
+}
+
+.completed {
+  color: grey;
+  opacity: 0.5;
+}
